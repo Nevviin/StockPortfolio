@@ -1,9 +1,9 @@
 # StockPortfolio
-Simple Reactjs input form to post data to asp.net core webapi
+# Simple Reactjs input form to post data to asp.net core webapi
 
 Http POST requests from input form with React component and dotnet core web API controller
 
-This Repository comprises of the below two projects 
+# This Repository comprises of the below two projects 
 
 1,  React project with a input form
 
@@ -17,7 +17,7 @@ The concepts covered is  "state in react" and usage of  axios library to make ht
 Enabling the CORS (Cross-Origin Requests) to access the Asp.Net core webapi to recieve the post request from react front end 
 
 
-How to set this project in your local 
+# How to set this project in your local 
 
 For React Project 
 
@@ -33,10 +33,19 @@ For Asp.Net Core Web Api Project
 {"stockName":"Microsoft Corporation","stockCode":"MSFT","quantity":"2","unitPrice":"208.90"}
 
 
-If the above mentioned steps are all good, then you can put a break point in the webapi controller method SaveItem() and input details in the react form a submit 
+# If the above mentioned steps are all good, then you can put a break point in the webapi controller method SaveItem() and input details in the react form a submit 
 the break point will be hit
 
-enjoy coding 
+
+# Common Errors
+
+1, Access to XMLHttpRequest at 'http://localhost:64425/stock' from origin 'http://localhost:3000' has been blocked by CORS policy:
+ Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+ solution :
+ make sure that the CORS is enabled in startup class in webapi
+ 
+
+# enjoy coding 
 
 
 
