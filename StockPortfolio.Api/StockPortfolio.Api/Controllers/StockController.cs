@@ -25,9 +25,10 @@ namespace StockPortfolio.Api.Controllers
             return Ok(
             new Stock 
             { Quantity = "2"
-            , StockCode = "WBC"
-            , StockName = "Westpac"
-            , UnitPrice = "18" }
+            , StockCode = "MSFT"
+            , StockName = "Microsoft Corporation"
+            , UnitPrice = "208.90"
+            }
             );
         }
     }

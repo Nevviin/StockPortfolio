@@ -15,17 +15,29 @@ namespace StockPortfolio.Api
 {
     public class Startup
     {
+
+        readonly string ReactOrigins = "ReactOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
-
+       
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddCors(options=> {
+                options.AddPolicy(name: ReactOrigins, builder => {
+                    builder.WithOrigins("http://localhost:3000/")
+.AllowAnyOrigin()
+.AllowAnyHeader();
+            });
+            });
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,7 +51,7 @@ namespace StockPortfolio.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors(ReactOrigins);
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
