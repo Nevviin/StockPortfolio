@@ -25,6 +25,8 @@ For React Project
 2, npm install to make sure that dependencies are in place 
 3, npm start  to launch the app
 
+if you are creating  the react app from the scratch , remember to install axios using npm install axios
+
 For Asp.Net Core Web Api Project 
 
 1, Prject will be part of the clone in the previous step
@@ -33,7 +35,7 @@ For Asp.Net Core Web Api Project
 {"stockName":"Microsoft Corporation","stockCode":"MSFT","quantity":"2","unitPrice":"208.90"}
 
 
-# If the above mentioned steps are all good, then you can put a break point in the webapi controller method SaveItem() and input details in the react form a submit 
+ If the above mentioned steps are all good, then you can put a break point in the webapi controller method SaveItem() and input details in the react form a submit 
 the break point will be hit
 
 
