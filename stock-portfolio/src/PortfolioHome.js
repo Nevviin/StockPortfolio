@@ -30,19 +30,19 @@ class PortfolioHome extends Component {
       <form onSubmit={this.handleSubmit.bind(this)} method="POST">
         <div className="form-group">
           <label>StockName</label>
-          <input type="text" className="form-control"></input>
+          <input type="text" className="form-control" value ={this.state.StockName}></input>
         </div>
         <div className="form-group">
           <label>StockCode</label>
-          <input type="text" className="form-control"></input>
+          <input type="text" className="form-control" value={this.state.StockCode}></input>
         </div>
         <div className="form-group">
           <label>Quantity</label>
-          <input type="text" className="form-control"></input>
+          <input type="text" className="form-control" value={this.state.Quantity}></input>
         </div>
         <div className="form-group">
           <label>UnitPrice</label>
-          <input type="text" className="form-control"></input>
+          <input type="text" className="form-control" value={this.state.UnitPrice}></input>
         </div>
         <input type="submit"  className="btn btn-primary"  value="Submit" />
       </form>
