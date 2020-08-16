@@ -22,7 +22,9 @@ Enabling the CORS (Cross-Origin Requests) to access the Asp.Net core webapi to r
 For React Project 
 
 1, Clone the project
-2, npm install to make sure that dependencies are in place 
+
+2, npm install to make sure that dependencies are in place
+
 3, npm start  to launch the app
 
 if you are creating  the react app from the scratch , remember to install axios using npm install axios
@@ -30,7 +32,9 @@ if you are creating  the react app from the scratch , remember to install axios 
 For Asp.Net Core Web Api Project 
 
 1, Prject will be part of the clone in the previous step
+
 2, start the application from the Visual Studio tool bar 
+
 3, if the build is success , it will launch a browser instance with the below json displayed 
 {"stockName":"Microsoft Corporation","stockCode":"MSFT","quantity":"2","unitPrice":"208.90"}
 
