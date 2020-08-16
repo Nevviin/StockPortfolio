@@ -1,5 +1,5 @@
 # StockPortfolio
-
+Simple Reactjs and asp.net core webapi example to post data
 Http POST requests from input form with React component and dotnet core web API controller
 
 This Repository comprises of the below two projects 
