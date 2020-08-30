@@ -27,10 +27,15 @@ class PortfolioHome extends Component {
       data: this.state,
       config:configCors
     }).then((response) => {
-      if (response.data.status === "success") {
-        alert("data posted successfully");
-      } else if (response.data.status === "fail") {
-        alert("post failed");
+      alert("data posted successfully");
+      console.log(response);
+      console.log(JSON.stringify(response.data))
+      if (response["statusText"] === "OK") {
+        //alert("Data submitted to api successfully, happy coding");
+        alert(JSON.stringify(response.data));
+      } else if (response["statusText"] !== "OK") {
+        alert("some went wrong, please check");
+        
       }
     });
   }

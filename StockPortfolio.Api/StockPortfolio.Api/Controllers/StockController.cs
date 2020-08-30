@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -15,8 +16,8 @@ namespace StockPortfolio.Api.Controllers
         [HttpPost]
         public IActionResult SaveItem(Stock stock)
         {
-
-            return Ok();
+            var statusView = new StockViewModel { MyStock = stock, Status = "new Stock added to your portfolio successfully" };
+           return Ok(statusView);
         }
 
         [HttpGet]

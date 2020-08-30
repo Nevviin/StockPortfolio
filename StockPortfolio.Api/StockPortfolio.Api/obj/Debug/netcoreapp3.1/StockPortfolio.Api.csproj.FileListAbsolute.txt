@@ -91,3 +91,4 @@ D:\GitRepositories\React-StockPortfolio\StockPortfolio.Api\StockPortfolio.Api\ob
 D:\GitRepositories\React-StockPortfolio\StockPortfolio.Api\StockPortfolio.Api\obj\Debug\netcoreapp3.1\StockPortfolio.Api.dll
 D:\GitRepositories\React-StockPortfolio\StockPortfolio.Api\StockPortfolio.Api\obj\Debug\netcoreapp3.1\StockPortfolio.Api.pdb
 D:\GitRepositories\React-StockPortfolio\StockPortfolio.Api\StockPortfolio.Api\obj\Debug\netcoreapp3.1\StockPortfolio.Api.genruntimeconfig.cache
+D:\GitRepositories\React-StockPortfolio\StockPortfolio.Api\StockPortfolio.Api\obj\Debug\netcoreapp3.1\StockPortfolio.Api.csprojAssemblyReference.cache
