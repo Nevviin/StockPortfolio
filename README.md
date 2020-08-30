@@ -39,9 +39,10 @@ For Asp.Net Core Web Api Project
 {"stockName":"Microsoft Corporation","stockCode":"MSFT","quantity":"2","unitPrice":"208.90"}
 
 
- If the above mentioned steps are all good, then you can put a break point in the webapi controller method SaveItem() and input details in the react form a submit 
-the break point will be hit
+ If the above mentioned steps are all good,  then you can type npm start in the react project commandline and input details in the react form a submit 
+the break point will be hit.
 
+![image](https://user-images.githubusercontent.com/11384742/91653155-6b7b3800-eae1-11ea-9e25-dcfd093a799a.png)
 
 # Common Errors
 
