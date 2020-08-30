@@ -40,7 +40,7 @@ For Asp.Net Core Web Api Project
 
 
  If the above mentioned steps are all good,  then you can type npm start in the react project commandline and input details in the react form a submit 
-the break point will be hit.
+youcan see the alet window with the submitted details and you can see the same in the  browser console as well
 
 ![image](https://user-images.githubusercontent.com/11384742/91653155-6b7b3800-eae1-11ea-9e25-dcfd093a799a.png)
 
